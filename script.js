@@ -30,9 +30,9 @@
         let copilotNameInput = document.querySelector("input[name=copilotName]");
         let copilot = copilotNameInput.value;
         let fuelLevelInput = document.querySelector("input[name=fuelLevel]");
-        let fuelLevel = Number(fuelLevelInput.value);
+        let fuelLevel = fuelLevelInput.value;
         let cargoMassInput = document.querySelector("input[name=cargoMass]");
-        let cargoLevel = Number(cargoMassInput.value);
+        let cargoLevel = cargoMassInput.value;
         event.preventDefault();
 
     // console.log(typeof formSubmission)
